@@ -23,8 +23,8 @@ mock==2.0.0
 olefile==0.44
 pbr==3.1.1
 Pillow==4.2.1
-ppaquette-gym-doom==0.0.3
--e git+https://github.com/ppaquette/gym-super-mario.git@2e5ee823b6090af3f99b1f62c465fc4b033532f4#egg=ppaquette_gym_super_mario
+# ppaquette-gym-doom==0.0.3 # all versions have install errors
+# -e git+https://github.com/ppaquette/gym-super-mario.git@2e5ee823b6090af3f99b1f62c465fc4b033532f4#egg=ppaquette_gym_super_mario
 protobuf==3.2.0 # was 3.1.0, not compatible with newer tensorflow
 pyglet==1.2.4
 PyOpenGL==3.1.0

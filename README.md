@@ -30,12 +30,12 @@ This is a tensorflow based implementation for our [ICML 2017 paper on curiosity-
   cd noreward-rl/
   virtualenv curiosity
   source $PWD/curiosity/bin/activate
-  pip install numpy
   pip install -r src/requirements.txt
-  python curiosity/src/go-vncdriver/build.py
+  Install Go:
+  https://go.dev/dl/ # was python curiosity/src/go-vncdriver/build.py 
 
   # download models
-  bash models/download_models.sh
+  https://www.cs.cmu.edu/~dpathak/noreward-rl/resources/models.tar.gz
 
   # setup customized doom environment
   cd doomFiles/
