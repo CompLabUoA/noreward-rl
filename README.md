@@ -19,6 +19,7 @@ This is a tensorflow based implementation for our [ICML 2017 paper on curiosity-
 ### 1) Installation and Usage
 1.  This code is based on [TensorFlow](https://www.tensorflow.org/). To install, run these commands:
   ```Shell
+  # Note: these are all linux-specific commands, will not work on Windows
   # you might not need many of these, e.g., fceux is only for mario
   sudo apt-get install -y python-numpy python-dev cmake zlib1g-dev libjpeg-dev xvfb \
   libav-tools xorg-dev python-opengl libboost-all-dev libsdl2-dev swig python3-dev \
