@@ -9,7 +9,7 @@ constantly==15.1.0
 docker-py==1.10.3
 docker-pycreds==0.2.1
 doom-py==0.0.15
-fastzbarlight==0.0.14
+# fastzbarlight==0.0.14 cannot find
 numpy==1.13.1
 funcsigs==1.0.2
 -e git+https://github.com/openai/go-vncdriver.git@33bd0dd9620e97acd9b4e559bca217df09ba89e6#egg=go_vncdriver
